@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foot_app/ecran/home.dart';
+import 'package:foot_app/ecran/matches.dart';
 import 'package:foot_app/ecran/news_page.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
@@ -17,7 +18,7 @@ class _BottomNavState extends State<HomePage> {
   final List<Widget> _pages = [
     const Center(child: Home()),
     const Center(child: NewsPage()),
-    const Center(child: Text("MATCHES")),
+    const Center(child: Matches()),
     const Center(child: Text("SEARCH")),
     const Center(child: Text("PROFILE")),
   ];
