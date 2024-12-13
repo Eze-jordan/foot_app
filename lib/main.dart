@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foot_app/ecran/home_page.dart';
+import 'package:foot_app/ecran/welcome_page';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const HomePage(),
+      home: const WelcomePage(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Roboto',
