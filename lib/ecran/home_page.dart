@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:foot_app/ecran/home.dart';
 import 'package:foot_app/ecran/matches.dart';
 import 'package:foot_app/ecran/news_page.dart';
+import 'package:foot_app/ecran/profil.dart';
 import 'package:iconsax_plus/iconsax_plus.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,7 +21,7 @@ class _BottomNavState extends State<HomePage> {
     const Center(child: NewsPage()),
     const Center(child: Matches()),
     const Center(child: Text("SEARCH")),
-    const Center(child: Text("PROFILE")),
+    const Center(child: Profil()),
   ];
 
   @override
