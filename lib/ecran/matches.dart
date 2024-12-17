@@ -132,7 +132,7 @@ class Matches extends StatelessWidget {
 
                               // Score de l'équipe 1
                               const Text(
-                                '2',
+                                '8',
                                 style: TextStyle(
                                   color: Color(0xFFFFFFFF),
                                   fontSize: 40,
